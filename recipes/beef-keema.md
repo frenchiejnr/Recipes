@@ -25,7 +25,7 @@ CUISINE: Indian
 - sugar
 - vegetable oil
 
-## Directions
+## steps
 1. 
    - Peel and finely slice the brown onion[s]
   
@@ -75,7 +75,7 @@ CUISINE: Indian
    - Enjoy!
 
 
-## Tips
+## notes
 
 ### Curry Powder
 Cumin Seed, Coriander Seed, Onion Powder, Turmeric, Salt, Granulated Sugar, Chilli Powder, Garlic Powder, Paprika, Cardamom, Black Pepper, Ginger, Fenugreek, Cassia, Bay Leaves, Cloves, Natural Flavouring
