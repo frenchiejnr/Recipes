@@ -1,6 +1,7 @@
 # Mushroom Salad
 
-## info   
+## info
+* N/A   
 * 6 servings  
 
 ## ingredients
