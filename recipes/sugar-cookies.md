@@ -15,7 +15,7 @@
 - 1 egg
 - 1 teaspoon vanilla extract
 
-## Directions
+## Steps
 1. Whisk together flour, baking powder and salt in a medium-sized bowl.
 1. In a larger bowl, use a wooden spoon or mixer to cream the oil and sugar.
 1. Add the egg and vanilla and mix until combined.
@@ -24,4 +24,4 @@
 1. Preheat oven to 350 F
 1. Roll dough into 1.5 inch balls and place on a cookie sheet, flatten with your hand or a pint glass to create a flat circle.
 
-## Tips
+## Notes
