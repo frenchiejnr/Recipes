@@ -4,8 +4,10 @@ const fs = require('fs');
 const parse = require('node-html-parser').parse;
 const express = require('express');
 const app = express();
+const recipe = require('./routes/recipe');
 
 app.use(express.static(path.join(__dirname, '/public')));
+app.use('/recipe*', recipe)
 
 let directory = "recipes"
 let newHtml = "";
@@ -29,7 +31,7 @@ let files = fs.readdir(directory, (err, fileList) => {
         else {
             listOfRecipes += `<li>`;
         }
-        listOfRecipes += `<a href=recipe.js#${anchor}">${name}</a></li>`;
+        listOfRecipes += `<a href=recipe_${anchor}>${name}</a></li>`;
         prevLetter = firstLetter;
     })
     let data = fs.readFileSync('index.html','utf-8');
