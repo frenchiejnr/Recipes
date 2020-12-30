@@ -2,8 +2,8 @@ const path = require('path');
 const port = 8000;
 const fs = require('fs');
 const parse = require('node-html-parser').parse;
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 app.use(express.static(path.join(__dirname, '/public')));
 
@@ -40,7 +40,6 @@ let files = fs.readdir(directory, (err, fileList) => {
     navigation.appendChild(listOfLetters);
     newHtml = html.innerHTML;
 });
-
 
 app.get('/', function(req, res){   
     res.send(newHtml)
