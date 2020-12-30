@@ -5,7 +5,7 @@ const parse = require('node-html-parser').parse;
 var express = require('express');
 var app = express();
 
-app.use(express.static(path.join(__dirname, '/')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 let directory = "recipes"
 let newHtml = "";
@@ -32,7 +32,7 @@ let files = fs.readdir(directory, (err, fileList) => {
         listOfRecipes += `<a href=recipe.js#${anchor}">${name}</a></li>`;
         prevLetter = firstLetter;
     })
-    let data = fs.readFileSync('main.html','utf-8');
+    let data = fs.readFileSync('index.html','utf-8');
     const html = parse(data)
     let toc = html.querySelector('#toc ul');
     let navigation = html.querySelector('#navigation');
